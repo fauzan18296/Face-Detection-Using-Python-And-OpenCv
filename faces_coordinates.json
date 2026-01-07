@@ -1,0 +1,13 @@
+{
+  "image": "image.jpg",
+  "faces": [
+    {
+      "coordinate": {
+        "x": 159,
+        "y": 376,
+        "width": 127,
+        "height": 127
+      }
+    }
+  ]
+}
