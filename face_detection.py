@@ -1,10 +1,11 @@
 import cv2 as cv
+from cv2 import data
 
 # Load the image
 image = cv.imread('images/image.jpg')
 
 # Create haarcascade model for classifiers face detection image
-face_cascade = cv.CascadeClassifier(cv.data.haarcascades + 'haarcascade_frontalface_default.xml')
+face_cascade = cv.CascadeClassifier(data.haarcascades + 'haarcascade_frontalface_default.xml')
 
 # Convert the image to grayscale
 gray_image = cv.cvtColor(image, cv.COLOR_BGR2GRAY)
