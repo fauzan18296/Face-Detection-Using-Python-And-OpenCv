@@ -3,7 +3,7 @@ import cv2 as cv
 # Load the image
 image = cv.imread('images/image.jpg')
 
-# Create cascade classifiers for face recognition
+# Create haarcascade for classifiers face recognition
 face_cascade = cv.CascadeClassifier(cv.data.haarcascades + 'haarcascade_frontalface_default.xml')
 
 # Convert the image to grayscale
